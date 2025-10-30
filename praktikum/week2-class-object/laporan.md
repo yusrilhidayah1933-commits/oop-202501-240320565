@@ -2,32 +2,47 @@
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : [Wisnu wibowo saputro]
+- NIM   : [240320565]
+- Kelas : [3DSRA]
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+Mahasiswa mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
+Mahasiswa mampu menerapkan access modifier dan enkapsulasi dalam pembuatan class.
+Mahasiswa mampu mengimplementasikan class Produk pertanian dengan atribut dan method yang sesuai.
+Mahasiswa mampu mendemonstrasikan instansiasi object serta menampilkan data produk pertanian di console.
+Mahasiswa mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, dan analisis sederhana.
 
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+
+1. Class dan Objek: Class adalah blueprint atau cetak biru dari sebuah objek, sedangkan objek merupakan instansiasi dari class yang berisi atribut (data) dan method (perilaku).  
+2. Enkapsulasi dan Access Modifier: Enkapsulasi dilakukan dengan menyembunyikan data menggunakan access modifier seperti public, private, dan protected, kemudian menyediakan akses melalui getter dan setter.
+3. Representasi Produk Pertanian: Dalam konteks Agri-POS, produk pertanian seperti benih, pupuk, dan alat pertanian dapat direpresentasikan sebagai objek dengan atribut nama, harga, dan stok.
+4. Manajemen Objek Terstruktur: Dengan menggunakan class, setiap produk dapat dibuat, dikelola, dan dimanipulasi secara lebih terstruktur, memudahkan pengelolaan data dalam sistem.
 
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+
+1. Membuat Class Produk
+   a. Buat file Produk.java pada package model.
+   b. Tambahkan atribut: kode, nama, harga, dan stok.
+   c. Gunakan enkapsulasi dengan menjadikan atribut bersifat private dan membuat getter serta setter untuk masing-masing atribut.
+2. Membuat Class CreditBy
+   a. Buat file CreditBy.java pada package util.
+   b. Isi class dengan method statis untuk menampilkan identitas mahasiswa di akhir output: credit by: <240320565> - <Wisnu Wibowo Saputro>.
+3. Membuat Objek Produk dan Menampilkan Credit
+   a. Buat file MainProduk.java.
+   b. Instansiasi minimal tiga objek produk, misalnya "Benih Padi", "Pupuk Urea", dan satu produk alat pertanian.
+   c. Tampilkan informasi produk melalui method getter.
+   d. Panggil CreditBy.print("<240320565>", "<Wisnu Wibowo Saputro>") di akhir main untuk menampilkan identitas.
+4. Commit dan Push
+
+Commit dengan pesan: week2-class-object.
 
 ---
 
